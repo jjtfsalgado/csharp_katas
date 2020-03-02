@@ -7,17 +7,6 @@ namespace CSharp_katas
 {
     class MakeComplement
     {
-        public class DNA
-        {
-            public DNA()
-            {
-            }
-
-            public string A { get; set; }
-            public string T { get; set; }
-            public string G { get; set; }
-            public string C { get; set; }
-        }
 
         public static Dictionary<char, string> mappedValue = new Dictionary<char, string>() {
             { 'A', "T" },

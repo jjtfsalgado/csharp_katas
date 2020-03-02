@@ -12,8 +12,15 @@ namespace CSharp_katas
 
 
             //002
-            var result = MakeComplement.Get("ATTGC");
-            Console.WriteLine(result);
+            //var result = MakeComplement.Get("ATTGC");
+
+            //003
+            //var result = ConvertNumberToString.Convert(1234);
+
+            //004
+            var result = ConvertNumberToReversed.convert(348597);
+
+            Array.ForEach(result, Console.WriteLine);
 
             Console.WriteLine("Hello World!");
         }
