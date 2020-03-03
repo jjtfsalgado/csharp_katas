@@ -18,9 +18,11 @@ namespace CSharp_katas
             //var result = ConvertNumberToString.Convert(1234);
 
             //004
-            var result = ConvertNumberToReversed.convert(348597);
+            //var result = ConvertNumberToReversed.convert(348597);
 
-            Array.ForEach(result, Console.WriteLine);
+            //005
+            var result = HighestAndLowest.get("1 9 3 4 -5");
+            Console.WriteLine(result);
 
             Console.WriteLine("Hello World!");
         }
