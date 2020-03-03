@@ -21,7 +21,12 @@ namespace CSharp_katas
             //var result = ConvertNumberToReversed.convert(348597);
 
             //005
-            var result = HighestAndLowest.get("1 9 3 4 -5");
+            //var result = HighestAndLowest.get("1 9 3 4 -5");
+            //Console.WriteLine(result);
+
+            //006
+            var result = NeedleInTheHaystack.Get(new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false });
+
             Console.WriteLine(result);
 
             Console.WriteLine("Hello World!");
