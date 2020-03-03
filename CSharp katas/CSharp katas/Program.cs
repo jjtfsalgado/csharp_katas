@@ -25,8 +25,10 @@ namespace CSharp_katas
             //Console.WriteLine(result);
 
             //006
-            var result = NeedleInTheHaystack.Get(new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false });
+            //var result = NeedleInTheHaystack.Get(new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false });
 
+            //007
+            var result = LongestConsec.Get(new String[] { "ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh" }, 1);
             Console.WriteLine(result);
 
             Console.WriteLine("Hello World!");
