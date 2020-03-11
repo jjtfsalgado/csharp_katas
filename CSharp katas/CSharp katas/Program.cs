@@ -28,7 +28,12 @@ namespace CSharp_katas
             //var result = NeedleInTheHaystack.Get(new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false });
 
             //007
-            var result = LongestConsec.Get(new String[] { "ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh" }, 1);
+            //var result = LongestConsec.Get(new String[] { "ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh" }, 1);
+            //Console.WriteLine(result);
+
+            //008
+            var result = Mumbling.Accum("ZpglnRxqenU");
+
             Console.WriteLine(result);
 
             Console.WriteLine("Hello World!");
