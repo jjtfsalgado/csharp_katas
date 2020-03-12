@@ -31,8 +31,11 @@ namespace CSharp_katas
             //var result = LongestConsec.Get(new String[] { "ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh" }, 1);
             //Console.WriteLine(result);
 
-            //008
-            var result = Mumbling.Accum("ZpglnRxqenU");
+            ////008
+            //var result = Mumbling.Accum("ZpglnRxqenU");
+
+            //009
+            var result = MiddleCharacter.GetMiddle("testing");
 
             Console.WriteLine(result);
 
