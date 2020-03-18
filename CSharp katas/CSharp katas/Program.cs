@@ -35,7 +35,10 @@ namespace CSharp_katas
             //var result = Mumbling.Accum("ZpglnRxqenU");
 
             //009
-            var result = MiddleCharacter.GetMiddle("testing");
+            //var result = MiddleCharacter.GetMiddle("testing");
+
+            //010
+            var result = NthSeries.seriesSum(9);
 
             Console.WriteLine(result);
 
