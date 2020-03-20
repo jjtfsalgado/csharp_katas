@@ -38,7 +38,10 @@ namespace CSharp_katas
             //var result = MiddleCharacter.GetMiddle("testing");
 
             //010
-            var result = NthSeries.seriesSum(9);
+            //var result = NthSeries.seriesSum(9);
+
+            //011
+            var result = TwoToOne.Longest("xyaabbbccccdefww", "xxxxyyyyabklmopq");
 
             Console.WriteLine(result);
 
