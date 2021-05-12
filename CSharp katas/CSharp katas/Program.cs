@@ -41,7 +41,7 @@ namespace CSharp_katas
             //var result = NthSeries.seriesSum(9);
 
             //011
-            var result = TwoToOne.Longest("xyaabbbccccdefww", "xxxxyyyyabklmopq");
+            var result = FindPerfectSquare.FindNextSquare(15241383936);
 
             Console.WriteLine(result);
 
